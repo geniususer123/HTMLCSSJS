@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        /* General Page Style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #0b3d91; /* Deep Blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #4db8ff; /* Lighter blue accent */
+        }
+
+        header h2 {
+            margin: 5px 0 0;
+            font-weight: normal;
+            color: #a8d5ff; /* Soft light blue */
+        }
+
+        /* Sections */
+        section {
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h3 {
+            border-left: 6px solid #28a745; /* Green bar */
+            padding-left: 10px;
+            color: #0b3d91;
+        }
+
+        /* Profile Image */
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+            border: 3px solid #28a745; /* Green border */
+        }
+
+        /* Skills List */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Education Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0b3d91;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f9ff; /* light blue striping */
+        }
+
+        /* Links */
+        a {
+            color: #0b3d91;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #28a745;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin: 8px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745; /* Green button */
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838; /* Darker green */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #0b3d91;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Vignesh S</h1>
+        <h2>My Portfolio</h2>
+    </header>
+
+    <!-- About Me Section -->
+    <section>
+        <h3>About Me</h3>
+        <p>
+            I am a passionate and dedicated Computer Science student specializing in 
+            Web Technologies,Machine Learning and data science. I enjoy solving 
+            real-world problems using innovative approaches.
+        </p>
+    </section>
+
+    <!-- Profile Image -->
+    <section>
+        <h3>Profile</h3>
+        <img src="PH.jpg" alt="Profile Photo" width="200">
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>Python, Java</li>
+            <li>C Programming</li>
+            <li>Machine Learning</li>
+             <li>Database Management (SQL)</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section>
+        <h3>Educational Qualifications</h3>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage/CGPA</th>
+            </tr>
+            <tr>
+                <td>M.Tech (CSE)</td>
+                <td>Sri Sairam Engineering College</td>
+                <td>2023-2028</td>
+                <td>8.12</td>
+            </tr>
+            <tr>
+                <td>Senior secondary</td>
+                <td>Velammal Vidhyashram Mambakkam</td>
+                <td>2022-2023</td>
+                <td>88%</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary</td>
+                <td>Velammal Vidhyashram Mambakkam</td>
+                <td>2020-2021</td>
+                <td>92.8%</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section>
+        <h3>Experience/Internships</h3>
+        <table>
+            <tr>
+                <th>SNO</th>
+                <th>ORGANIZATION NAME</th>
+                <th>DOMAIN</th>
+                <th>PERIOD</th>
+                <th>PROJECTS</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Internpe</td>
+                <td>AIML</td>
+                <td>4 Weeks</td>
+                <td> <ul> <li>Diabetes prection using ML Model </li>
+                    <li>Cancer Prediction using Neural Networks</li>
+                    <li>Car price Prediction usoing ML model </li>
+                    <li>IPL Winner prediction using ML model</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vulture Lines Pvt Ltd</td>
+                <td> Full Stack with Gen AI
+                </td>
+                 <td>1 month</td>
+                <td>EmotiCare</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Links Section -->
+    <section>
+        <h3>Find Me Online</h3>
+        <p>
+            <a href="https://github.com/geniususer123" target="_blank\\">GitHub</a> |
+            <a href="https://www.linkedin.com/in/vignesh-s-409821293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZZQghFczWbFBZdVqLbWrGXdMhZqkjsPzdNNPczxvtxsSXthnLdZqTxrjBqwfjpQsNgBcg" target="_blank">Gmail</a>
+        </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+        <h3>Contact Me</h3>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vignesh S | All Rights reserved</p>
+    </footer>
+</body>
+</html>
